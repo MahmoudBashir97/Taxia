@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DriverLoginActivity"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center">
+        <EditText
+            android:id="@+id/email_d"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:background="#fff"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="#000"
+            android:padding="5dp"
+            />
+        <EditText
+            android:id="@+id/pass_d"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:background="#fff"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            />
+
+        <Button
+            android:id="@+id/login_d_btn"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="Login"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+        />
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create New Account?"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:id="@+id/register_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:textSize="18sp"
+                android:textColor="#fff"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

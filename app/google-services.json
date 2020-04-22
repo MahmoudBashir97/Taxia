@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1072402432290",
+    "firebase_url": "https://taxia-f65e1.firebaseio.com",
+    "project_id": "taxia-f65e1",
+    "storage_bucket": "taxia-f65e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072402432290:android:c82fa00d070633db94257b",
+        "android_client_info": {
+          "package_name": "com.mahmoud.bashir.taxia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072402432290-ckau32bro4k23r5m4s4h1jh9ahtfonik.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mahmoud.bashir.taxia",
+            "certificate_hash": "f6f0330153c80be4f6a659c6430f64ce443e6d7a"
+          }
+        },
+        {
+          "client_id": "1072402432290-tbqimj9haiajp35p6kuh30ebui933nsh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsIKSCx_C1qET7xUVJ1qrAm37nDrafok8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072402432290-tbqimj9haiajp35p6kuh30ebui933nsh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
